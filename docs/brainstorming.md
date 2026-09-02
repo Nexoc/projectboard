@@ -73,3 +73,21 @@ Project:
   - sees registered users
   - adds/removes selected users to/from the project
 - MEMBER
+
+
+### Future AI Feature
+
+* Local LLM can analyze a User Story
+* AI can suggest tickets/tasks based on the User Story
+* AI can suggest acceptance criteria
+* generated tickets are not created automatically
+* user must review and confirm the suggestions first
+
+Flow:
+
+User Story
+→ Local LLM
+→ Suggested Tickets / Tasks
+→ User Review
+→ Accept
+→ Add to Backlog
